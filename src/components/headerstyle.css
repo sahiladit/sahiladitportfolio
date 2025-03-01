@@ -1,0 +1,25 @@
+#header{
+    background-color: 	#303030;
+}
+*::selection{
+    background-color: 	#8A2BE2;
+    color:white;
+}
+#header h2{
+    color:#00FFFF;
+    transition: all ease 0.25s;
+    cursor: pointer;
+}
+
+#name:hover{
+    color:#8A2BE2;
+}
+
+#navRight h3{
+    color:#E0E0E0;
+    cursor: pointer;
+}
+#navRight h3:hover{
+    color:#8A2BE2;
+  text-shadow: 0px 0px 10px #8A2BE2, 0px 0px 20px #8A2BE2;
+}

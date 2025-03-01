@@ -1,0 +1,53 @@
+/* Fullscreen Loader */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: limegreen;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    transition: opacity 1s ease-in-out, z-index 1s ease-in-out;
+    z-index: 9999; /* Initially on top */
+}
+
+/* Blinking "Loading Portfolio..." */
+.loading-text {
+    font-size: 1.5rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    50.1%, 100% { opacity: 0; }
+}
+
+/* "Press Start" Pulsing Effect */
+.start-text {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+/* Smooth Fade-Out Effect */
+.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+body{
+    overflow: hidden;
+}
