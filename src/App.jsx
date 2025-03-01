@@ -7,12 +7,14 @@ import myImage from './components/assets/myImage.jpeg';
 import Cursor from './components/Cursor';
 import Card from './components/Card';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
 
 
   return (
     <div>
+      <Analytics/>
       <Cursor />
       <Grain />
       <Loader />
