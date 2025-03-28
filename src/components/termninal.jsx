@@ -58,7 +58,7 @@ const Terminal = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen w-screen relative overflow-hidden">
+    <div className="flex items-center justify-center h-screen w-screen -top-24 relative overflow-hidden">
       {/* Matrix-style background */}
       {Array.from({ length: 30 }).map((_, i) => (
         <motion.span
@@ -84,7 +84,7 @@ const Terminal = () => {
         initial={{ opacity: 0, scale: 1.1 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
-        className="w-full max-w-2xl border border-green-500 p-4 rounded-lg shadow-lg bg-black text-green-400 font-mono"
+        className="w-full max-w-2xl border border-green-500 p-4 rounded-lg shadow-lg   text-green-400 font-mono"
       >
         <pre className="whitespace-pre-wrap text-lg leading-relaxed">
           {displayedText}
