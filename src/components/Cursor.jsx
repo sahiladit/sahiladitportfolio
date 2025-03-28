@@ -33,7 +33,7 @@ const Cursor = () => {
     <motion.div
       className="fixed top-0 left-0 w-6 h-6 bg-white lg:block hidden rounded-full mix-blend-difference pointer-events-none"
       animate={{ x: cursorPosition.x - 12, y: cursorPosition.y - 12 }}
-      transition={{ type: "tween", ease: "linear", duration: 0.05 }}
+      transition={{ type: "spring", stiffness: 100, damping: 15, mass: 1 }} // Bouncy effect
       style={{ zIndex: 9999 }} // High z-index
     />
   );

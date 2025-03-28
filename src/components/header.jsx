@@ -18,13 +18,13 @@ const Header = (App) => {
     };
     const prjClick = () => {
         window.scrollTo({
-            top: 480, 
+            top: document.getElementById('page3').offsetTop-50, 
             behavior: 'smooth'
         });
     };
 
     return (
-        <div id="header" className='h-10 w-screen flex justify-around items-center fixed z-10 top-0 left-0 '>
+        <div id="header" className='h-10  w-screen flex justify-around items-center fixed z-20 top-0 left-0 '>
             <div><h2 id="name">SahilAdit.exe</h2></div>
             <div id='navRight' className='h-full md:flex static justify-between w-1/3 mr-32 gap-7 items-center hidden md:left-56'>
                 <button onClick={homeClick}><h3>Home</h3></button>
