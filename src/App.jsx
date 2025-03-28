@@ -86,7 +86,7 @@ const App = () => {
         </div>
       </div>
 
-      <div id="page2" className="h-screen w-screen flex flex-col-reverse md:flex-row items-center justify-center text-center px-6 md:px-16">
+      <div id="page2" className="h-screen w-screen flex flex-col md:flex-col items-center justify-center text-center px-6 md:px-16">
       <motion.h2 initial={{opacity:0}} whileInView={{opacity:100}} transition={{duration:1}} className='text-2xl text-white mt-10'>Skills</motion.h2>
         <Terminal></Terminal>
       </div>
@@ -114,7 +114,7 @@ const App = () => {
         </div>
       </div>
 
-      <footer className='h-16 w-screen flex items-center justify-center bg-gray-800 text-white opacity-75 rounded-b-4xl'>
+      <footer className='h-16 w-screen flex items-center m-10 justify-center bg-gray-800 text-white opacity-75 rounded-b-4xl'>
         <p className='text-center'>This site is 99.9% bug-free. The remaining 0.1% is a feature</p>
       </footer>
     </div>
