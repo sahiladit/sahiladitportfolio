@@ -1,5 +1,6 @@
 html.lenis {
   height: auto;
+  scroll-behavior:smooth;
 }
   #page1{
     background-color: #0D0D0D;
@@ -16,4 +17,18 @@ html.lenis {
   }
   .projName{
     z-index: 20;
+  }
+  .proj:first-child{
+    margin-top: 5rem;
+  }
+  .randtext {
+    transform: scaleY(0.8); /* Slows down the scrolling perception */
+    transition: transform 1s ease-in-out;
+  }
+  group:first-child{
+    margin-top: 13rem;
+  }
+  footer{
+    margin-top: 5rem;
+    font-size: 0.75rem;
   }
