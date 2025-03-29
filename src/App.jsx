@@ -61,7 +61,7 @@ const App = () => {
 
         <div id="info" className="text-white relative text-2xl md:w-1/2 -top-16 md:right-24 md:top-0 md:mb-0">
           <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }}>
-          Hello, World!<br></br> Welcome to My Digital Space
+          Hello,World!<br></br> Welcome to My Digital Space
           </motion.h2>
         </div>
       </div>
