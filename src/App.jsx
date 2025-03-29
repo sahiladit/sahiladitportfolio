@@ -69,7 +69,7 @@ const App = () => {
       <div id="page2" className="h-screen w-screen flex flex-col md:flex-col items-center justify-center text-center px-6 md:px-16">
         <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='text-2xl text-white top-175 md:top-200 absolute'>Skills</motion.h2>
         <Terminal />
-        <div className='links flex items-center md:items-center justify-around absolute p-5 md:p-0 md:text-4xl text-2xl h-12 w-1/2 rounded-4xl top-290 bg-[#ffffffbd]  md:top-335 md:w-1/3 md:h-16'>
+        <div className='links flex items-center md:items-center justify-around relative p-5 md:p-0 md:text-4xl text-2xl h-12 w-1/2 rounded-4xl  -top-1/4 bg-[#ffffffbd]  md:top-335 md:w-1/3 md:h-16'>
           <p id="linkscross" className='md:text-3xl text-xl'>>>></p><a href="https://www.linkedin.com/in/sahiladit/" className='z-10 md:top-0 -top-1 relative' target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://www.instagram.com/thesahiladit" className='z-10 relative md:top-0 -top-1' target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
           <a href='https://github.com/sahiladit' className='z-10 relative md:top-0 -top-1' target="_blank"><i class="fa-brands fa-square-github"></i></a>
